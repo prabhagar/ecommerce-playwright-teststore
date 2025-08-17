@@ -86,8 +86,10 @@ npm run test:allure
 
 
 Why This Test Stands Out
-    Feature	                        Description
+    
 POM Architecture	Organized pages for scalability and reusability
+
 Custom Utilities	Built a reusable waitAndFill for robust element handling
+
 Allure Integration	Step-by-step reporting with screenshots for clarity
 
