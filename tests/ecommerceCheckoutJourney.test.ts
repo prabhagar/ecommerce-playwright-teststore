@@ -25,6 +25,7 @@ test.describe('E-commerce Checkout Journey', () => {
 
         await test.step('Proceed through checkout (stop before payment)', async () => {
             await checkoutPage.fillCheckoutForm();
+            await checkoutPage.validateCheckoutConfirmation('Armani Eau de Toilette Spray', "61");
             await checkoutPage.stopBeforePayment();
         });
     });
