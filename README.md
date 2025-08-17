@@ -4,6 +4,8 @@
 
 This repository contains a robust, maintainable Playwright automation solution for an e-commerce demo site—built to demonstrate my skills.
 
+
+
 ---
 What I Did for This Code Assessment
 
@@ -20,6 +22,7 @@ Error-Resilient Utilities: Added reusable functions for reliable element handlin
 Allure Integration: Configured Allure for rich reports with screenshots and step details, ensuring clarity in results.
 
 
+
 ⚙️ Configuration Files
 
 The project includes several configuration files:
@@ -29,6 +32,7 @@ playwright.config.ts: Configures Playwright settings.
 tsconfig.json: TypeScript configuration.
 
 package.json: Manages project dependencies and scripts.
+
 
 
 🧩 Project Structure
@@ -42,6 +46,7 @@ pages/: Houses page object models.
 utils/: Provides shared utilities and test data.
 
 
+
 🛠️ Prerequisites
 
 Ensure you have the following installed:
@@ -51,12 +56,15 @@ Node.js (version 16 or higher)
 npm (Node Package Manager)
 
 
+
 📥 Clone the Repository
 
 Open your terminal and run:
 
 git clone https://github.com/prabhagar/ecommerce-playwright-teststore.git
+
 cd ecommerce-playwright-teststore
+
 
 
 📦 Install Dependencies
@@ -66,11 +74,13 @@ Run the following command to install the necessary packages:
 npm install
 
 
+
 🌐 Install Browsers
 
 Playwright requires browser binaries for testing. Install them using:
 
 npx playwright install
+
 
 
 🧪 Run Tests
@@ -80,9 +90,11 @@ Execute the tests with:
 npx playwright test or npm run test:ui
 
 
+
 📊 Allure Reporting - To run test and generate report :(configured this in package.json - to run and generate report in a single command)
 
 npm run test:allure
+
 
 
 Why This Test Stands Out
