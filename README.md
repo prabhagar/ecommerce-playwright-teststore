@@ -139,7 +139,10 @@ Refactoring Playwright code is easier when it’s directly written in JS/TS.
 
 If the team is developer-heavy, Cucumber’s readability benefits are mostly irrelevant.
 
+
+
 Playwright alone provides readable test reports and debug information, making Cucumber unnecessary.
+
 
 1. Install Dependencies
 
@@ -158,6 +161,7 @@ This command installs:
 
 ts-node: A TypeScript execution engine for Node.js.
 
+
 2. Configure Cucumber
 
 Create a cucumber.js file in the project root with the following content:
@@ -175,24 +179,30 @@ Specifies the location of the step definitions.
 
 Sets the output format for test execution.
 
+
 3. Set Up Project Structure
 
 Organize the project as follows:
 
 ecommerce-playwright-teststore/
-├── tests/
-│   ├── features/
+
+features/
 │   │   └── shopping.feature
+
 │   └── steps/
 │       └── shopping.steps.ts
+
 ├── cucumber.js
+
 ├── package.json
+
 └── tsconfig.json
 
 
 features/: Contains the .feature files written in Gherkin syntax.
 
 steps/: Contains the step definition files.
+
 
 4. Write a Feature File
 
@@ -204,6 +214,7 @@ Feature: Shopping Cart
     Given I am on the homepage
     When I add a product to the cart
     Then the cart should contain 1 item
+    
 
 5. Implement Step Definitions
 
@@ -227,6 +238,7 @@ Then('the cart should contain 1 item', async () => {
 
 
 This code uses Playwright's API to interact with the web page and verify the cart's contents.
+
 
 6. Run the Tests
 
