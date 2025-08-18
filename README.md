@@ -43,7 +43,7 @@ tests/: Contains test specifications.
 
 pages/: Houses page object models.
 
-utils/: Provides shared utilities and test data.
+utils/: Provides shared utilities and test data
 
 
 
