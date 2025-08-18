@@ -146,8 +146,6 @@ Playwright alone provides readable test reports and debug information, making Cu
 
 To integrate Cucumber with this Playwright tests, we can acheieve it using below steps
 
-This command installs:
-
 
 1. Install Dependencies
 
