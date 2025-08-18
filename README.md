@@ -21,7 +21,7 @@ Error-Resilient Utilities: Added reusable functions for reliable element handlin
 
 Allure Integration: Configured Allure for rich reports with screenshots and step details, ensuring clarity in results.
 
-
+---
 
 ⚙️ Configuration Files
 
@@ -95,7 +95,7 @@ npx playwright test or npm run test:ui
 
 npm run test:allure
 
-
+---
 
 Why This Test Stands Out
     
@@ -105,7 +105,7 @@ Custom Utilities	Built a reusable waitAndFill for robust element handling
 
 Allure Integration	Step-by-step reporting with screenshots for clarity
 
-
+---
 
 I can combine Playwright with Cucumber, but in practice it often adds unnecessary complexity. Here are some reasons why it’s usually not a good idea:
 
@@ -139,9 +139,14 @@ Refactoring Playwright code is easier when it’s directly written in JS/TS.
 
 If the team is developer-heavy, Cucumber’s readability benefits are mostly irrelevant.
 
-
-
 Playwright alone provides readable test reports and debug information, making Cucumber unnecessary.
+
+
+---
+
+To integrate Cucumber with this Playwright tests, we can acheieve it using below steps
+
+This command installs:
 
 
 1. Install Dependencies
@@ -151,9 +156,6 @@ Run the following command to install the necessary packages:
 npm install --save-dev @playwright/test @cucumber/cucumber ts-node
 
 
-To integrate Cucumber with this Playwright tests, we can acheieve it using below steps
-
-This command installs:
 
 @playwright/test: Playwright's test automation library.
 
